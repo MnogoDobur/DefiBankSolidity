@@ -21,7 +21,7 @@ interface IERC20 {
 
 contract EthGangSwapBankTest17 {
     
-    // call it DefiBank
+    
     string public name = "DefiBank17";
     uint256 public oldBalance;
     
@@ -39,8 +39,7 @@ contract EthGangSwapBankTest17 {
     mapping(address => bool) public isStaking;
 
 
-    // in constructor pass in the address for USDC token and your custom bank token
-    // that will be used to pay interest
+    
     constructor() public {
         usdc = 0xEe0196284a063d46A502b88E4Ed7E2AfEA26EF6E;
         bankToken = 0x91D95070d64Be39cc625136183c832Bb89a6B6be;
